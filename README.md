@@ -2,7 +2,7 @@
 Feature guided masked Autoencoder for self-supervised learning in remote sensing
 
 <p align="center">
-  <img width="500" alt="fgmae main structure" src="assets/fgmae.png">
+  <img width="1000" alt="fgmae main structure" src="assets/fgmae.png">
 </p>
 
 PyTorch implementation of [FGMAE](). 
@@ -11,8 +11,8 @@ PyTorch implementation of [FGMAE]().
 
 | modality  | ViT-Small  | ViT-Base | ViT-Large | ViT-Huge |
 | :---: | :---: | :---: | :---: | :---: |
-| 13 band MS | [ViT-S/16]() | [ViT-B/16]() | [ViT-L/16]() | [ViT-H/14]() |
-| 2 band SAR | [ViT-S/16]() | [ViT-B/16]() | [ViT-L/16]() | [ViT-H/14]() |
+| 13 band MS | [ViT-S/16](https://huggingface.co/wangyi111/FGMAE/resolve/main/B13_vits16_fgmae_ep99.pth) | [ViT-B/16](https://huggingface.co/wangyi111/FGMAE/resolve/main/B13_vitb16_fgmae_ep99.pth) | [ViT-L/16](https://huggingface.co/wangyi111/FGMAE/resolve/main/B13_vitl16_fgmae_ep99.pth) | [ViT-H/14](https://huggingface.co/wangyi111/FGMAE/resolve/main/B13_vith14_fgmae_ep399.pth) |
+| 2 band SAR | [ViT-S/16](https://huggingface.co/wangyi111/FGMAE/resolve/main/B2_vits16_fgmae_ep99.pth) | [ViT-B/16](https://huggingface.co/wangyi111/FGMAE/resolve/main/B2_vitb16_fgmae_ep99.pth) | [ViT-L/16](https://huggingface.co/wangyi111/FGMAE/resolve/main/B2_vitl16_fgmae_ep99.pth) | [ViT-H/14](https://huggingface.co/wangyi111/FGMAE/resolve/main/B2_vith14_fgmae_ep399.pth) |
 
 ### Pretraining
 For FGMAE-MS, go to `src/pretrain_ssl`, and run
