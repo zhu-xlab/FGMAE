@@ -43,7 +43,11 @@ On one node in a slurm system with 4 GPUs, we provide some example job submissio
 See `src/pretrain_ssl/transfer_classification` for linear probing and fine tuning on BigEarthNet and EuroSAT.
 
 #### EuroSAT-SAR dataset
-We collect a Sentinel-1 GSD SAR version of [EuroSAT]() by matching the coordinates. Please see [EuroSAT-SAR](https://huggingface.co/datasets/wangyi111/EuroSAT-SAR) for descriptions and downloads.
+We collect a Sentinel-1 GSD SAR version of [EuroSAT](https://github.com/phelber/EuroSAT) by matching the coordinates. Please see [EuroSAT-SAR](https://huggingface.co/datasets/wangyi111/EuroSAT-SAR) for descriptions and downloads.
+
+<p align="center">
+  <img width="1000" alt="fgmae main structure" src="assets/eurosat-sar.png">
+</p>
 
 ### License
 
