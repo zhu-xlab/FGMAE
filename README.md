@@ -5,7 +5,7 @@ Feature guided masked Autoencoder for self-supervised learning in remote sensing
   <img width="1000" alt="fgmae main structure" src="assets/fgmae.png">
 </p>
 
-PyTorch implementation of [FGMAE](). 
+PyTorch implementation of [FGMAE](https://arxiv.org/abs/2310.18653). 
 
 ### Pretrained models
 
@@ -53,3 +53,12 @@ We collect a Sentinel-1 GSD SAR version of [EuroSAT](https://github.com/phelber/
 
 This repository is heavily built on [MAE](https://github.com/facebookresearch/mae), which is under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
 
+### Citation
+```bibtex
+@article{wang2023feature,
+  title={Feature Guided Masked Autoencoder for Self-supervised Learning in Remote Sensing},
+  author={Wang, Yi and Hern{\'a}ndez, Hugo Hern{\'a}ndez and Albrecht, Conrad M and Zhu, Xiao Xiang},
+  journal={arXiv preprint arXiv:2310.18653},
+  year={2023}
+}
+```
